@@ -17,8 +17,8 @@ export enum GasMode {
 }
 
 export const Config = {
-    host: "suroi.sefinek.net",
-    port: 443,
+    host: "0.0.0.0",
+    port: 8000,
 
     mapName: "main",
 

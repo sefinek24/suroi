@@ -7,8 +7,8 @@ export const Config = {
         },
         main: {
             name: "Polski Serwer (Produkcja)",
-            mainAddress: "https://suroi.sefinek.net:8000",
-            gameAddress: "ws://suroi.sefinek.net:9090"
+            mainAddress: "https://suroi.sefinek.net",
+            gameAddress: "wss://suroi-ws.sefinek.net"
         }
     },
     defaultRegion: "main",
