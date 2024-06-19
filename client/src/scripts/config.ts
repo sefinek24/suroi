@@ -1,9 +1,14 @@
 export const Config = {
     regions: {
-        main: {
-            name: "Polski Serwer (Sefinek)",
+        dev: {
+            name: "Polski Serwer (Rozwój)",
             mainAddress: "http://127.0.0.1:8000",
             gameAddress: "ws://127.0.0.1:9090"
+        },
+        main: {
+            name: "Polski Serwer (Produkcja)",
+            mainAddress: "https://suroi.sefinek.net:8000",
+            gameAddress: "ws://suroi.sefinek.net:9090"
         }
     },
     defaultRegion: "main",
