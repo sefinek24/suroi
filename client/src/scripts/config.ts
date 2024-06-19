@@ -1,12 +1,12 @@
 export const Config = {
     regions: {
-        dev: {
+        main: {
             name: "Polski Serwer (Sefinek)",
             mainAddress: "http://127.0.0.1:8000",
             gameAddress: "ws://127.0.0.1:9090"
         }
     },
-    defaultRegion: "na",
+    defaultRegion: "main",
     mode: "normal"
 } satisfies ConfigType as ConfigType;
 
